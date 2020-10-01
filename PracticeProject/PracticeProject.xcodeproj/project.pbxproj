@@ -13,6 +13,8 @@
 		8066A2B024327A4200FB602A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8066A2AF24327A4200FB602A /* Assets.xcassets */; };
 		8066A2B324327A4200FB602A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8066A2B224327A4200FB602A /* Preview Assets.xcassets */; };
 		8066A2B624327A4200FB602A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8066A2B424327A4200FB602A /* LaunchScreen.storyboard */; };
+		80D35128251039900003D554 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D35127251039900003D554 /* Colors.swift */; };
+		80D3512A25103A2B0003D554 /* SymbolConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D3512925103A2B0003D554 /* SymbolConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8066A2B224327A4200FB602A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8066A2B524327A4200FB602A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8066A2B724327A4200FB602A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80D35127251039900003D554 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		80D3512925103A2B0003D554 /* SymbolConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8066A2B424327A4200FB602A /* LaunchScreen.storyboard */,
 				8066A2B724327A4200FB602A /* Info.plist */,
 				8066A2B124327A4200FB602A /* Preview Content */,
+				80D35127251039900003D554 /* Colors.swift */,
+				80D3512925103A2B0003D554 /* SymbolConfig.swift */,
 			);
 			path = PracticeProject;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8066A2AA24327A3F00FB602A /* AppDelegate.swift in Sources */,
+				80D35128251039900003D554 /* Colors.swift in Sources */,
 				8066A2AC24327A3F00FB602A /* SceneDelegate.swift in Sources */,
 				8066A2AE24327A3F00FB602A /* ContentView.swift in Sources */,
+				80D3512A25103A2B0003D554 /* SymbolConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
